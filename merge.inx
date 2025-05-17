@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<inkscape-extension xmlns="http://www.inkscape.org/namespace/inkscape/extension">
+  <name>CSV Column Exporter with Substitution</name>
+  <id>org.csabourin.merge</id>
+  <dependency type="extension">org.inkscape.output.svg.inkscape</dependency>
+  
+  <param name="csv_path" type="path" gui-text="CSV File" filemode="file" />
+  <param name="column_name" type="string" gui-text="Column for Filename (e.g., ID or Name)"/>
+  <param name="output_dir" type="path" gui-text="Output Folder" filemode="folder"/>
+  <param name="enable_substitution" type="bool" gui-text="Enable Text Substitution?"/>
+  <param name="preview_columns" type="bool" gui-text="🔍 Preview Available Columns Only (no export)"/>
+  <effect needs-live-preview="false">
+    <object-type>all</object-type>
+    <effects-menu>
+      <submenu name="Export" />
+      <menu-tip>Export multiple SVGs using values from a CSV column and replace text elements</menu-tip>
+    </effects-menu>
+
+  </effect>
+  <script>
+    <command location="inx" interpreter="python">merge.py</command>
+  </script>
+</inkscape-extension>
