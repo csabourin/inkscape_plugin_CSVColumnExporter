@@ -76,7 +76,7 @@ This results in actual placeholders like `{{Name}}` being replaced properly at r
 ## 📄 License
 
 MIT License
-(c) 2024 Christian Sabourin
+(c) 2025 Christian Sabourin
 Feel free to use, modify, and distribute with attribution.
 
 ---
