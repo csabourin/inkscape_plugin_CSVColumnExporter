@@ -1,0 +1,27 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+
+msgid "CSV Column Exporter with Substitution"
+msgstr "Exportador de columnas CSV con sustitución"
+
+msgid "CSV File"
+msgstr "Archivo CSV"
+
+msgid "Column for Filename (e.g., ID or Name)"
+msgstr "Columna para el nombre del archivo (p. ej., ID o nombre)"
+
+msgid "Output Folder"
+msgstr "Carpeta de salida"
+
+msgid "Enable Text Substitution?"
+msgstr "¿Habilitar la sustitución de texto?"
+
+msgid "Preview Available Columns Only (no export)"
+msgstr "Previsualizar columnas disponibles solamente (sin exportar)"
+
+msgid "Export"
+msgstr "Exportar"
+
+msgid "Export multiple SVGs using values from a CSV column and replace text elements"
+msgstr "Exportar varios archivos SVG usando valores de una columna CSV y reemplazar elementos de texto"

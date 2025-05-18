@@ -1,0 +1,31 @@
+# POT file for Inkscape extension 'CSV Column Exporter with Substitution'
+
+msgid ""
+msgstr ""
+"Project-Id-Version: CSV Column Exporter with Substitution\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "CSV Column Exporter with Substitution"
+msgstr ""
+
+msgid "CSV File"
+msgstr ""
+
+msgid "Column for Filename (e.g., ID or Name)"
+msgstr ""
+
+msgid "Output Folder"
+msgstr ""
+
+msgid "Enable Text Substitution?"
+msgstr ""
+
+msgid "Preview Available Columns Only (no export)"
+msgstr ""
+
+msgid "Export"
+msgstr ""
+
+msgid "Export multiple SVGs using values from a CSV column and replace text elements"
+msgstr ""
