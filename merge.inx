@@ -1,4 +1,5 @@
-<inkscape-extension xmlns="http://www.inkscape.org/namespace/inkscape/extension">
+<inkscape-extension xmlns="http://www.inkscape.org/namespace/inkscape/extension" translationdomain="org.csabourin.merge">
+
   <name>CSV Column Exporter with Substitution</name>
   <id>org.csabourin.merge</id>
   <dependency type="extension">org.inkscape.output.svg.inkscape</dependency>
@@ -12,7 +13,7 @@
   <effect needs-live-preview="false">
     <object-type>all</object-type>
     <effects-menu>
-      <submenu name="_Export" />
+      <submenu name="Export" />
       <menu-tip>Export multiple SVGs using values from a CSV column and replace text elements</menu-tip>
     </effects-menu>
   </effect>
